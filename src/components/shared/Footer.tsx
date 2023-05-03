@@ -48,14 +48,6 @@ const Footer = (props: FooterProps): React.ReactElement => {
           >
             Feedback
           </HyperLink>
-
-          <HyperLink
-            link={rssLink}
-            className="text-xs"
-            startEnhancer={<FiRss size={20} />}
-          >
-            RSS
-          </HyperLink>
         </Row>
 
         {/* <div
