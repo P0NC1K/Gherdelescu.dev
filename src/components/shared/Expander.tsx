@@ -2,7 +2,6 @@ import React, { SyntheticEvent, useState } from "react";
 
 import HyperLink from "./HyperLink";
 
-/* eslint-disable @typescript-eslint/no-explicit-any */
 type ExpanderProps = {
   items: any[];
   onRender: (item: any, index: number) => React.ReactElement;
