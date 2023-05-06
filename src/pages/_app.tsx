@@ -2,6 +2,7 @@ import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import Script from "next/script";
 import { HelmetProvider } from "react-helmet-async";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -23,6 +24,7 @@ export default function App({ Component, pageProps }: AppProps) {
       </Script>
       <HelmetProvider>
         <Component {...pageProps} />
+        <Analytics />
       </HelmetProvider>
     </>
   );
