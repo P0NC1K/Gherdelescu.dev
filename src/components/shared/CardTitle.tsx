@@ -15,7 +15,7 @@ const CardTitle = (props: CardTitleProps): React.ReactElement | null => {
     return null;
   }
 
-  const headerElement = <H level={hLevel.h3}>{children}</H>;
+  const headerElement = <H level={hLevel.h2}>{children}</H>;
 
   const linkElement = link ? (
     <HyperLink link={link}>{headerElement}</HyperLink>

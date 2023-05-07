@@ -104,7 +104,7 @@ const ProjectPreview = (
     ) : null;
 
   const projectCover = project.cover ? (
-    <FluidImage image={project.cover} />
+    <FluidImage className="object-cover" image={project.cover} />
   ) : null;
 
   const archivedStamp = project?.archived ? (
