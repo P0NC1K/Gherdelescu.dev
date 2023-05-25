@@ -131,4 +131,19 @@ export const projects: Projects = {
       { name: 'PWA' },
     ],
   },
+  floodInsurance: {
+    id: 'floodInsurance.',
+    name: '🌊 Flood Insurance',
+    cover: { srcPath: '/static/projects/floodInsurance/cover-00.png' },
+    startDate: '2023-04-01',
+    summary: [
+      'A form-based website for a company that offers flood insurance',
+    ],
+    demoURL: { url: 'https://nationalfloodinsurance.com/' },
+    tags: [
+      { name: 'React' },
+      { name: 'SCSS' },
+      { name: 'Laravel' }
+    ],
+  },
 };
