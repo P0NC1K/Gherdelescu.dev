@@ -4,9 +4,9 @@ import { socialLinks } from './socialLinks';
 export const profile: Profile = {
   firstName: 'Grigore',
   lastName: 'Gherdelescu',
-  position: 'Fullstack Web Developer @ Renter',
+  position: 'Co-Founder of Renter',
   summary: [
-    'Founder of a mobility sharing startup 🚲',
+    'Full-Stack Web Developer 👨‍💻',
   ],
   avatar: {
     srcPath: '/static/profile/avatar_500x500.jpg',
@@ -18,7 +18,7 @@ export const profile: Profile = {
   tags: [
     { name: 'Next.js' },
     { name: 'React' },
-    { name: 'Node.JS' },
+    { name: 'Node.js' },
     { name: 'Full Stack' },
   ],
   socialLinks,
