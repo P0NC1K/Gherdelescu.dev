@@ -146,4 +146,22 @@ export const projects: Projects = {
       { name: 'Laravel' }
     ],
   },
+  selfBase: {
+    id: 'SelfBase',
+    name: '💀 SelfBase',
+    cover: { srcPath: '/static/projects/selfbase/cover-00.png' },
+    startDate: '2023-06-12',
+    summary: [
+      'A user-friendly website that features a drag-and-drop interface, enabling users to share their personal profiles and social media connections',
+    ],
+    demoURL: { url: 'https://www.selfbase.app/' },
+    tags: [
+      { name: 'Next.js' },
+      { name: 'TailwindCSS' },
+      { name: 'Supabase' },
+      { name: 'Zod' },
+      { name: 'TRPC' },
+      { name: 'Supabase' },
+    ],
+  },
 };
